@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(180deg, rgb(246, 255, 0), rgb(67, 65, 0));
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#jobbFelsoKep,
+#balFelsoKep {
+    width: 270px;
+    height: 200px;
+}
+
+#jobbFelsoKep {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#balFelsoKep {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.main_container {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bevitelszoveg {
+    margin-bottom: 100px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer img {
+    width: 40px;
+    height: 20px;
+}
+.m {
+    color: red;
+}
+.power {
+    color: rgb(116, 116, 116);
+}
+.section1{
+    height: 100%;
+    background: linear-gradient(180deg, rgb(246, 255, 0), rgb(67, 65, 0));
+}
+.section2{
+    height: 100%;
+    background: linear-gradient(180deg, rgb(246, 255, 0), rgb(67, 65, 0));
+}
